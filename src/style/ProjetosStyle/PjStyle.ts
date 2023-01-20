@@ -2,13 +2,25 @@ import styled from "styled-components";
 
 
 export const PjStyle = styled.div`
+      
+    width: 100%;
+    left: 0;
+    position: absolute;
+    background-color: aliceblue;
     display: flex;
     justify-content: center;
     align-items: center;   
     flex-wrap : wrap ;
-    height: 70vh;
+    padding: 30px;
     margin-bottom: 20px 0px;
-    a{
+
+    
+    
+
+
+
+    a{  
+        position: relative;
         margin: 10px 30px;
         display: flex;
         flex-direction: column;
@@ -30,8 +42,10 @@ export const PjStyle = styled.div`
         }
         div{
             border-radius: 10px;
-            width: 340px;
-            height: 190px;
+            width: 100%;
+            height: 100%;
+            max-width: 340px;
+            max-height: 190px;
             &:hover{
                 background-color: rgba(0,0,0,0.5);
             }
