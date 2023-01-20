@@ -42,7 +42,7 @@ export const Aside = styled.aside<asideProp>`
     justify-content: center;
     background-color: rgba(0,0,0,0.7);
     width: 101vw;
-    height: 101vh;
+    height: calc(100vh + 100vh);
     overflow: hidden;
     left: 50%;
     top: 50%;

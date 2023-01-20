@@ -14,6 +14,12 @@ export const PjStyle = styled.div`
     padding: 30px;
     margin-bottom: 20px 0px;
 
+    @media(min-width:860px){
+        top: 50%;
+        transform: translateY(-50%);
+        height: 600px;
+    }
+
     
     
 
@@ -58,7 +64,7 @@ export const PjStyle = styled.div`
             margin-bottom: 30px;
             font-weight: 400;
             transition: transform 0.5s;
-            
+            text-align:center;
         }
         img{
             
@@ -68,10 +74,20 @@ export const PjStyle = styled.div`
             background-color: rgba(0,0,0,0.3);
             border-radius: 10px;
             border: 1px solid #333;
-            width: inherit;
-            height: inherit;
             background-position: center;
             background-size: cover;
+            width: 100%;
+            height: 100%;
+            min-width: 340px;
+            max-height: 190px;
+
+            @media(max-width: 300px){
+            min-width: 150px;
+            max-height: 120px;
+    
         }
+        
+    
+    }
     }
 `
