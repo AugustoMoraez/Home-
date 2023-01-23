@@ -1,7 +1,10 @@
+import { ScStyle } from "../../style/SocialStyle/sc"
+
+
 export const Sc = ( ) => {
     return(
-        <div className="">
+        <ScStyle>
             social
-        </div>
+        </ScStyle>
     )
 }
