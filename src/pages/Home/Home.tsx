@@ -14,7 +14,7 @@ export const Home = () => {
                 <span>Meu <b>portifólio</b></span>
                 <br />
                 <p>  Olá, meu nome é Augusto sou universitário de Ciências da Computação e aspirante a  desenvolvedor frontend, neste
-                   site/portifólio você poderá ver alguns de meus projetos e também entrar em contato comigo através da aba contratos.</p>
+                   site/portifólio você poderá ver alguns de meus projetos e também entrar em contato comigo através da opção social no menu.</p>
             </div>
         
         </ContFlex>

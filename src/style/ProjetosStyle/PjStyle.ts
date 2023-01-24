@@ -9,7 +9,8 @@ export const PjStyle = styled.div`
     background-color: aliceblue;
     display: flex;
     justify-content: center;
-    align-items: center;   
+    align-items: center;  
+    
     flex-wrap : wrap ;
     padding: 30px;
     margin-bottom: 20px 0px;

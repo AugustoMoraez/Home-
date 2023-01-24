@@ -6,9 +6,10 @@ export const Menu = styled.div`
     margin: 0px 10px;
     
     ul{
+        
         list-style: none;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
     }
     li{
         padding: 0px 10px;

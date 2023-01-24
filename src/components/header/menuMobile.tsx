@@ -24,7 +24,6 @@ export const NavMobile = () => {
             <S.Aside>
                 <span onClick={openMenu}>X</span>
                 <span onClick={openMenu}><Link to={"/"}>HOME</Link></span>
-                <span onClick={openMenu}><Link to={"/Social"}>SOCIAL</Link></span>
                 <span onClick={openMenu}><Link to={"/Sobre"}>SOBRE</Link></span>
                 <span onClick={openMenu}><Link to={"/Projetos"}>PROJETOS</Link></span>
             </S.Aside>    

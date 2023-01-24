@@ -7,7 +7,6 @@ export const Nav = () => {
             <ul>
                 <li><Link to={"/"}>HOME</Link></li>
                 <li><Link to={"/Projetos"}>PROJETOS</Link></li>
-                <li><Link to={"/Social"}>SOCIAL</Link></li>
                 <li><Link to={"/Sobre"}>SOBRE</Link></li>
             </ul>
         </Menu>

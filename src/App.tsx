@@ -25,7 +25,6 @@ function App() {
           <Route path="/" element={<Home/>}/>
           <Route path="/Projetos" element={<Pj/>}/>
           <Route path="/Sobre" element={<Sobre/>}/>
-          <Route path="/Social" element={<Sc/>}/>
         </Routes>
       
       </section>
