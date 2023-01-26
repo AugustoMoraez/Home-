@@ -21,7 +21,7 @@ function App() {
       <section>
       
         <Routes>
-          <Route path="/" element={<Home/>}/>
+          <Route path="portifolio-react.js/" element={<Home/>}/>
           <Route path="/Projetos" element={<Pj/>}/>
           <Route path="/Sobre" element={<Sobre/>}/>
         </Routes>
