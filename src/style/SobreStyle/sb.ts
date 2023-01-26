@@ -6,44 +6,53 @@ export const SbStyle = styled.div`
     width: 100%;
     left: 0;
     position: absolute;
+    z-index: -1;
     background-color: aliceblue;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;   
     flex-wrap : wrap ;
-    padding: 30;
-    margin-bottom: 20px 0px;
+   
+    
     h1{
         font-weight: 300;
         font-size: 30px;
     }
+    
     .sobre {
         display: flex;
+        flex-wrap: wrap;
         align-items: center;
         justify-content: center;
         
         div{
-        margin-left: 50px;
-        
+        margin: auto;
+        padding:30px ;
+            h3{
+                font-size: 25px;
+                font-weight: 300;
+                text-align: left;
+                padding: 0px;
+            }
         }
     
         
         fieldset{
-            margin-right: 50px;
-           
+
+            padding:30px ;
             border: none;
         
             display: flex;
             flex-direction: column;
             justify-content: space-evenly;
-            align-items: center ;
+            align-items: left ;
             height: 240px;
             h3{
                 font-size: 25px;
                 font-weight: 300;
-                text-align: center;
-                padding: 10px;
+                text-align: left;
+                padding: 0px;
             }
             b{
                 font-weight: 500;
@@ -54,17 +63,9 @@ export const SbStyle = styled.div`
         }
     }
     
-    
+  
 
-    @media(max-width:859px){
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%,-50%);
-        padding: 40px 0px;
-    }
-    @media(max-width:300px){
-        padding: 20px 0px;
-    }
+   
     @media(min-width:860px){
         top: 50%;
         transform: translateY(-50%);

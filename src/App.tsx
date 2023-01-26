@@ -4,7 +4,6 @@ import {Routes,Route} from "react-router-dom";
 import {Home} from "./pages/Home/Home";
 import {Pj } from "./pages/Projetos/projetos";
 import {Sobre} from "./pages/Sobre/Sobre";
-import { Sc } from "./pages/Social/social";
 import {Footer} from "./components/footer/footer"
 
 
